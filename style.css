@@ -428,11 +428,12 @@ padding:5px;
 
 
 
-@media only screen and (max-width: 600px){
+/* For mobile devices */
+@media only screen and (max-width: 412px){
     /* cover page */
     #cover-page{
         width: 100%;
-        height: 50vh;
+        height: 25vh;
     }
     .container{
         padding: 0px 0%;
@@ -475,12 +476,12 @@ padding:5px;
 
     /* self description */
     #self-introduction{
-        margin: 5% 5%;
+        margin: 10% 5%;
         background-size: 100%;
         padding-bottom: 5%;
     }
     #self-introduction p{
-        padding: 10px;
+        padding: 25px;
         font-family: 'Poppins';
         font-weight: 500;
         font-size: 10px;
@@ -560,7 +561,7 @@ padding:5px;
     }
     .container1{
         width: 95%;
-        height: 100vh;
+        height: 50vh;
         padding: 10px;
     }
     .tab_box .tab_btn{
@@ -588,7 +589,7 @@ padding:5px;
     /* foods */
     .slider{
         width: 90%;
-        height: 80vh;
+        height: 30vh;
     }
     
     .slider::-webkit-scrollbar{
@@ -627,37 +628,36 @@ padding:5px;
 
 
     /* Contacts */
-#contact h1{
-    font-size: 20px;
-}
-#contact i{
-    font-size: 10px;
-}
-.left{
-    height: 70px;
-}
-.left a{
-    font-size: 10px;
-}
+    #contact h1{
+        font-size: 20px;
+    }
+    #contact i{
+        font-size: 10px;
+    }
+    .left{
+        height: 70px;
+    }
+    .left a{
+        font-size: 10px;
+    }
 
-.side{
-    border-style: none;
-    height: 70px;
-}
-#copyright p{
-    font-size: 10px;
-}
-.home{
-    background-color: #a58006e8;
-    text-align: center;
-}
-.home a{
-    font-size: 20px;
-    margin: 0%;
-    color: rgb(6, 6, 31);
-}
+    .side{
+        border-style: none;
+        height: 70px;
+    }
+    #copyright p{
+        font-size: 10px;
+    }
+    .home{
+        background-color: #a58006e8;
+        text-align: center;
+    }
+    .home a{
+        font-size: 20px;
+        margin: 0%;
+        color: rgb(6, 6, 31);
+    }
     
 }
-
 
 
