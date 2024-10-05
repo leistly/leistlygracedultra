@@ -589,7 +589,7 @@ padding:5px;
     /* foods */
     .slider{
         width: 90%;
-        height: 30vh;
+        height: 40vh;
     }
     
     .slider::-webkit-scrollbar{
