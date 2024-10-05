@@ -1,0 +1,429 @@
+
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color: rgb(41, 38, 38);
+    background-color: rgb(237, 238, 175);
+}
+
+/* Cover page */
+#cover-page{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/watercolor-splash-png-4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container{
+    padding: 5px 8%;
+    margin-top: 5px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    border-radius: 10px;
+    padding: 2px;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    margin-bottom: -20px;
+}
+nav ul li a{
+    color: rgba(41, 38, 38, 0.753);
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    width: 100%;
+    color: #fac104;
+}
+
+.name{
+    font-family: 'Great Vibes';
+    font-weight: 500;
+    font-size: 100px;
+    text-shadow: 5px 5px 10px  #cca937;
+    background-color: rgba(18, 145, 96, 0);
+    box-shadow: none;
+    color: rgba(49, 49, 47, 0.863);
+    transition: 0.3s;
+}
+.name:hover{
+    color: #cca527;
+}
+.cover-text{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: center;
+}
+.cover-text ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+.container img{
+    width: 40%;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+.cover-text ul li p{
+    color: rgb(41, 38, 38);
+    font-size: 25px;
+}
+.cover-text ul li h2{
+    color: rgb(41, 38, 38);
+    font-size: 42px;
+    font-family: 'Great Vibes';
+    font-weight: 500;
+    text-shadow: 5px 5px 10px  #cca937;
+}
+
+
+
+/* ABOUT */
+#self-introduction{
+    margin: 5% 25%;
+    background-size: 100%;
+    background-size: 100vh;
+    text-align: center;
+    background-image: url(img/lines1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 2%;
+}
+#self-introduction p{
+    padding: 75px;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+#about h2{
+    margin-left: 5%;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px #a58006a8;
+}
+#about .container{
+    background-image: url(img/droplets.png);
+    display: flex;
+    justify-items: space-between;
+    margin: 0;
+}
+#about .container ul{
+    display: inline-block;
+    margin: 15%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 4%;
+    list-style: none;
+    font-weight: 500;
+}
+#about .container ul li{
+    font-family: 'Poppins';
+}
+
+
+
+
+/* EDUCATION */
+
+#education{
+    background-color: #fac104e0;
+}
+
+#education h2{
+    padding-top: 20px;
+    margin-left: 5%;
+    font-size: 45px;
+    text-shadow: 5px 5px 5px #f109755b;
+}
+
+.schools{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+}
+.schools img{
+width: 250px;
+height: 250px;
+cursor: pointer;
+padding:5px;
+}
+
+.school{
+    padding: 30px;
+    background-color:rgba(255, 255, 255, 0.452);
+    margin: 20px;
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 10px 10px 10px rgb(247, 122, 6);
+    border-radius: 10px;
+}
+.school:hover{
+    background-color: #cca527;
+    background-image: linear-gradient(rgb(240, 75, 124),rgb(241, 186, 5));
+    transform: translateY(-10px);
+    box-shadow: 10px 10px 20px rgb(48, 47, 47);
+}
+.schools nav{
+    background-color: white;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.603);
+}
+.school a{
+    text-decoration: none;
+    color:rgb(41, 38, 38);
+}
+.school a:hover{
+    text-decoration: underline;
+}
+
+
+/* Hobbies */
+#hobbies{
+    background-image: url(img/yellow-splash-png-2.png);
+    background-size: 100vh;
+    background-color: rgba(231, 233, 133, 0.658);
+    padding: 10%;
+    padding-top: 5%;
+}
+#hobbies h1{
+    padding-left: 2%;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 5px 5px 5px #a58006;
+}
+#hobbies nav{
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(100, 99, 95);
+    padding: 5%;
+}
+#hobbies img{
+    width: 300px;
+    height: 300px;
+    margin: 1%;
+    border-style: dashed;
+    border-width: 7px;
+    border-color: #adb871;
+    box-shadow: 10px 10px 10px #0a09066c;
+}
+#hobbies p{
+    text-wrap: wrap;
+    margin: 1%;
+    font-size: 15px;
+}
+.leftside{
+    display: flex;
+    margin-right: 10%;
+    align-items: center;
+}
+.rightside{
+    display: flex;
+    margin-left: 10%;
+    align-items: center;
+    text-align: right;
+}
+
+
+/* FAVORITES */
+#fav{
+    background-color: #e2d665;
+}
+#fav h1{
+    padding-top: 10px;
+    margin-left: 5%;
+    font-size: 45px;
+    color: rgb(240, 75, 124);
+    text-shadow: 5px 2px 5px rgba(3, 3, 3, 0.712);
+}
+#favorites{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1{
+    width: 85%;
+    height: 80vh;
+    padding: 30px;
+    box-shadow: 0 2px 16px gray;
+    border-radius: 20px;
+    margin: 1%;
+    margin-bottom: 3%;
+}
+.tab_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid black;
+    position: relative;
+}
+.tab_box .tab_btn{
+    font-size: 18px;
+    font-weight: 600;
+    columns: white;
+    background: none;
+    border: none;
+    padding: 18px;
+    cursor: pointer;
+    transition: background 0.5s, transform 0.5s;
+}
+.tab_box .tab_btn.active{
+    color: rgb(240, 75, 124);
+    font-size: 25px;
+    font-style: underline;
+    text-decoration: underline;
+    transform: translateY(-2px);
+}
+.content_box{
+    padding: 10px;
+}
+.content_box .content{
+    display: none;
+}
+.content_box .content.active{
+    display: block;
+}
+.content_box .content h2{
+    margin-bottom: 10px;
+}
+
+/* foods */
+.slider{
+    display: block;
+    width: 90%;
+    overflow-x: scroll;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 20px;
+    border-bottom-width: 10px;
+    border-color: rgba(231, 233, 133, 0.658);
+    border-radius: 30px;
+    background-color: rgba(231, 233, 133, 0.658);
+    box-shadow: 0 0 20px gray;
+}
+
+.slider::-webkit-scrollbar{
+    border-radius: 10px;
+}
+.slider::-webkit-scrollbar-thumb{
+    background: rgba(231, 29, 90, 0.664);
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.514);
+}
+.slider_container{
+    display: block;
+    white-space: nowrap;
+    margin-bottom: 1%;
+    width: 100%;
+}
+.items{
+    display: inline-block;
+    height: 290px;
+    background-color: white;
+}
+.items p{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.items img{
+    width: 100%;
+    height: 250px;
+}
+.items img.items2{
+    width: 200px;
+}
+.items video{
+    width: 100%;
+    height: 250px;
+}
+.items video.items2{
+    width: 200px;
+}
+.music{
+    display: inline-block;
+    height: 290px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.song_img{
+    width: 200px;
+    height: 200px;
+}
+.music audio{
+    width: 200px;
+    height: 30px;
+}
+
+
+/* Contacts */
+#contact{
+    background-color: #a58006e8;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4%;
+}
+#contact h1{
+    font-size: 45px;
+}
+.left{
+    display: block;
+}
+.left a{
+    text-decoration: none;
+    color: rgb(37, 32, 32);
+    font-size: 18px;
+}
+
+.side{
+    width: 38%;
+    height: 35vh;
+    border-left: 5px solid rgb(43, 38, 38);
+    padding-left: 5%;
+}
+.socmed a{
+    font-size: 30px;
+    margin: 3%;
+    color: rgb(6, 6, 31);
+}
+
+#copyright{
+    background-color: #a58006e8;
+    text-align: center;
+    padding: 2%;
+}
+#copyright p{
+    font-family: 'Courier';
+    color: rgba(0, 0, 0, 0.527);
+}
+.home{
+    background-color: #a58006e8;
+    text-align: center;
+}
+.home a{
+    font-size: 30px;
+    margin: 3%;
+    color: rgb(6, 6, 31);
+}
+
+
