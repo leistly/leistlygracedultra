@@ -18,7 +18,7 @@ body{
 #cover-page{
     width: 100%;
     height: 100vh;
-    background-image: url(img/watercolor-splash-png-4.png);
+    background-image: url(watercolor-splash-png-4.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -118,7 +118,7 @@ nav ul li a:hover{
     text-shadow: 5px 5px 5px #a58006a8;
 }
 #about .container{
-    background-image: url(img/droplets.png);
+    background-image: url(droplets.png);
     display: flex;
     justify-items: space-between;
     margin: 0;
@@ -195,7 +195,7 @@ padding:5px;
 
 /* Hobbies */
 #hobbies{
-    background-image: url(img/yellow-splash-png-2.png);
+    background-image: url(yellow-splash-png-2.png);
     background-size: 100vh;
     background-color: rgba(231, 233, 133, 0.658);
     padding: 10%;
