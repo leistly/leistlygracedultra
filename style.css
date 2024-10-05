@@ -427,8 +427,8 @@ padding:5px;
 }
 
 
-/* For mobile devices */
-@media only screen and (max-width: 412px){
+
+@media only screen and (max-width: 600px){
     /* cover page */
     #cover-page{
         width: 100%;
